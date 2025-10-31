@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tsigereda M. - CS Student </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+  
+    <header class="header">
+        <a href="#home" class="logo">
+            <span class="logo-text">Tsigereda.M</span>
+        </a>
+        
+        <div class="header-controls">
+            <button id="theme-toggle" class="theme-toggle" aria-label="Toggle light and dark mode">
+                <i class="fas fa-sun light-icon"></i>
+                <i class="fas fa-moon dark-icon"></i>
+            </button>
+            <button class="menu-toggle" id="menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+
+        <nav class="navbar" id="navbar">
+            <a href="#home" class="active">
+               
+                <span>Home</span>
+            </a>
+            <a href="#about">
+                
+                <span>About Me</span>
+            </a>
+            <a href="#skills">
+               
+                <span>Skills</span>
+            </a>
+            <a href="#services">
+            
+                <span>Services</span>
+            </a>
+            <a href="#projects">
+                
+                <span>Projects</span>
+            </a>
+            <a href="#contact">
+               
+                <span>Contact</span>
+            </a>
+        </nav>
+    </header>
+
+    <section class="home" id="home">
+        <div class="home-content">
+            <div class="profile-container">
+                <div class="profile-frame">
+                    <img src="ts.jpg" alt="Profile Photo" class="profile-photo">
+                </div>
+            </div>
+            
+            <div class="name-container">
+                <h1 class="name-title">
+                    <span class="name-greeting">Hi, I'm</span>
+                    <span class="movable-name" id="movable-name">Tsigereda</span>
+                </h1>
+            </div>
+            
+            <div class="typing-container">
+                <h3 class="typing-text">
+                    A <span class="typing-word" id="typing-word">Computer Science Student</span>
+                </h3>
+            </div>
+            
+            <p class="home-description">Passionate about coding clean, efficient solutions and building modern web experiences.</p>
+            
+            <div class="home-buttons">
+                <a href="#projects" class="btn btn-primary">
+                    <span>View My Work</span>
+                    <i class="fas fa-arrow-right"></i>
+                </a>
+                <a href="#contact" class="btn btn-secondary">
+                    <span>Contact Me</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="section-header">
+            <h2 class="section-title">About Me</h2>
+        </div>
+        
+        <div class="about-container">
+            <div class="about-image-container">
+                <div class="about-image-frame">
+                    <img src="images.png" alt="" class="about-photo">
+                </div>
+            </div>
+            
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Hello! My name is Tsigereda, and I'm a passionate Computer Science student at the University of Gondar.
+                         I have a strong interest in technology and software development, with experience in C++, Object-Oriented Programming, 
+                         Data Structures and Algorithms, and Database Systems.</p>
+                    <p>Recently, I have been expanding my skills in Web Programming, 
+                         where I'm learning to design and build dynamic, responsive, and user-friendly websites. 
+                        I enjoy turning ideas into real projects and constantly improving my technical and creative abilities.</p>
+                    <p>I'm motivated, curious, and committed to continuous learning aiming to become a professional software developer who contributes to impactful and innovative solutions.</p>
+                </div>
+                
+                <div class="about-stats">
+                    <div class="stat-item">
+                        <div class="stat-number" data-count="4">0</div>
+                        <div class="stat-label">Projects Completed</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number" data-count="3">0</div>
+                        <div class="stat-label">Learning years</div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    
+    <section class="skills" id="skills">
+        <div class="section-header">
+            <h2 class="section-title">My Skills</h2>
+        </div>
+        
+        <div class="skills-container">
+            <div class="skills-content">
+                <div class="skill-bars-container">
+                    <div class="skill-box" data-skill="85">
+                        <div class="skill-header">
+                            <h3>C++ Programming</h3>
+                            <span class="skill-percent">0%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-level cplusplus-level"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-box" data-skill="70">
+                        <div class="skill-header">
+                            <h3>Object Oriented Programming</h3>
+                            <span class="skill-percent">0%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-level oop-level"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill-box" data-skill="75">
+                        <div class="skill-header">
+                            <h3>Database (SQL/NoSQL)</h3>
+                            <span class="skill-percent">0%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-level database-level"></div>
+                        </div>
+                    </div>
+                     
+                    <div class="skill-box" data-skill="70">
+                        <div class="skill-header">
+                            <h3>Web Development (HTML/CSS/JS)</h3>
+                            <span class="skill-percent">0%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-level webdev-level"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="services" id="services">
+        <div class="section-header">
+            <h2 class="section-title">My Future Services</h2>
+        </div>
+        
+        <div class="services-container">
+            <div class="services-grid">
+                <div class="service-box">
+                    <div class="service-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3>Web Development</h3>
+                    <p>Building responsive, modern, and high-performance websites from scratch using the latest technologies.</p>
+                </div>
+                
+                <div class="service-box">
+                    <div class="service-icon">
+                        <i class="fas fa-chalkboard-teacher"></i>
+                    </div>
+                    <h3>Lecturing/Tutoring</h3>
+                    <p>In the future, I plan to expand my work into lecturing and tutoring through online platforms.
+                         <br> I aim to share my knowledge and experience in programming courses such as C++,
+                          Object-Oriented Programming (OOP), Data Structures, and Algorithms.
+                           <br> My goal is to help students and beginners build a strong foundation in computer science, 
+                           develop practical coding skills, and gain confidence in solving real-world programming problems.</p>
+                </div>
+                
+                <div class="service-box">
+                    <div class="service-icon">
+                        <i class="fas fa-palette"></i>
+                    </div>
+                    <h3>Web Design</h3>
+                    <p>Focusing on user-friendly (UX) and visually appealing (UI) interfaces and layouts for optimal user experience.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="projects" id="projects">
+        <div class="section-header">
+            <h2 class="section-title">My Projects</h2>
+        </div>
+        
+        <div class="projects-container">
+            <div class="projects-grid">
+                <div class="project-card" data-category="oop">
+                    <div class="project-image">
+                        <img src="school.png" alt="Object-Oriented Programming Project">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://github.com/tsigeredamitiku8-hue/Object-oriented-programming-project?tab=readme-ov-file#object-oriented-programming-project" target="_blank" class="project-link">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>School Management System</h3>
+                        <p>Object Oriented Programming</p>
+                    </div>
+                </div>
+                 
+                 <div class="project-card" data-category="cpp">
+                    <div class="project-image">
+                        <img src="bank.png" alt="Algorithm and Data Structure Project">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://github.com/tsigeredamitiku8-hue/data-structure-and-algorithm-project#data-structure-and-algorithm-project" target="_blank" class="project-link">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Bank Account Management</h3>
+                        <p>Data Structure & Algorithm</p>
+                    </div>
+                </div>
+                 
+                 <div class="project-card" data-category="cpp">
+                    <div class="project-image">
+                        <img src="banks.png" alt="Computer Programming (C++) Project">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://github.com/tsigeredamitiku8-hue/computer-programming-project?tab=readme-ov-file#computer-programming-project" target="_blank" class="project-link">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Bank Management System</h3>
+                        <p>Computer Programming (C++)</p>
+                    </div>
+                </div>
+                </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="section-header">
+            <h2 class="section-title">Contact Me</h2>
+        </div>
+        <div class="contact-container">
+            <div class="contact-info">
+                <h3>Get In Touch</h3>
+                <p>I'm always open to discussing new opportunities, creative ideas, or partnerships to bring your vision to life.</p>
+                
+                <div class="contact-details">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-text">
+                            <h4>Phone</h4>
+                            <a href="tel:+251945297783">+251 945 297 783</a>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-text">
+                            <h4>Email</h4>
+                            <a href="mailto:tsigeredamitiku8@gmail.com">tsigeredamitiku8@gmail.com</a>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-text">
+                            <h4>Location</h4>
+                            <span>Addis Ababa, Ethiopia</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="social-links">
+                    <a href="https://www.instagram.com/invites/contact/?utm_source=ig_contact_invite&utm_medium=copy_link&utm_content=yi03p82" target="_blank" class="social-link">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="https://t.me/Rosi_1621" target="_blank" class="social-link">
+                        <i class="fab fa-telegram-plane"></i>
+                    </a>
+                    <a href="https://github.com/tsigeredamitiku8-hue" target="_blank" class="social-link">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </div>
+            </div>
+            
+             <form class="contact-form" id="contact-form">
+                <div class="form-group">
+                    <input type="text" name="name" id="name" required>
+                    <label for="name">Your Name</label>
+                    <div class="form-line"></div>
+                </div>
+                
+                <div class="form-group">
+                    <input type="email" name="email" id="email" required>
+                    <label for="email">Your Email</label>
+                    <div class="form-line"></div>
+                </div>
+                
+                <div class="form-group">
+                    <input type="text" name="subject" id="subject" required>
+                    <label for="subject">Subject</label>
+                    <div class="form-line"></div>
+                </div>
+                
+                <div class="form-group">
+                    <textarea name="message" id="message" rows="5" required></textarea>
+                    <label for="message">Your Message</label>
+                    <div class="form-line"></div>
+                </div>
+                
+                <button type="submit" class="btn btn-primary submit-btn">
+                    <span>Send Message</span>
+                    <i class="fas fa-paper-plane"></i>
+                </button>
+            </form> 
+
+
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-logo">
+                <a href="#home" class="logo">
+                    <span class="logo-text">Tsigereda.M</span>
+                </a>
+                <p>Computer Science Student & Future Web Developer</p>
+            </div>
+            
+            <div class="footer-links">
+                <div class="footer-column">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="#services">Web Development</a></li>
+                        <li><a href="#services">Tutoring</a></li>
+                        <li><a href="#services">Web Design</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h4>Contact</h4>
+                    <ul>
+                        <li><a href="tel:+251945297783">+251 945 297 783</a></li>
+                        <li><a href="mailto:tsigeredamitiku8@gmail.com">tsigeredamitiku8@gmail.com</a></li>
+                        <li><a href="#contact">Send Message</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <p>&copy; 2025 Tsigereda. All rights reserved.</p>
+            <a href="#home" class="back-to-top">
+                <i class="fas fa-arrow-up"></i>
+            </a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
